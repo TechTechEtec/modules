@@ -1,4 +1,4 @@
-#	Introdução
+## Introdução
 
 Você deve estar pensando: ` “Por que fazer um curso de lógica de programação?” `. Hoje em dia em um mundo tão tecnológico é difícil achar alguém que não goste de tecnologias e inovações. Fato é que para muitos, trabalhar com tecnologia é um sonho, afinal estão mexendo com aquilo que eles estão inseridos todos os dias. Porém para outros é uma dor de cabeça. Muitos dizem que programação é uma área difícil, que tem que ser bom de matemática ou melhor, um gênio. Mas nada disso é verdade.
 
@@ -137,6 +137,7 @@ Você poderá ler mais sobre cada módulo na aba capítulos mas te deixo aqui um
     - Se-senao
     - Se-senao-se
     - Escolha-caso 
+
 - Laços de repetição:
     - Enquanto 
     - Faça-enquanto
@@ -151,11 +152,8 @@ Você poderá ler mais sobre cada módulo na aba capítulos mas te deixo aqui um
 - Há sempre o que estudar
     - HTML
     - CSS
-    - Python 
-- Revisão para avaliação final
+    - Python
 
-```js
-console.log("Hello Word");
-```
+- Revisão para avaliação final
 
 **Bons Estudos!**
