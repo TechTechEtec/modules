@@ -1,5 +1,5 @@
 
-# O que são Dados?
+## O que são Dados?
 
 Dados são uma coleção de fatos, como números, palavras, medidas, observações ou apenas descrições de coisas.
 
