@@ -101,13 +101,16 @@ Você poderá ler mais sobre cada módulo na aba capítulos mas te deixo aqui um
     - Real 
     - Lógico
     - Vazio
+
 - Conversão de tipos de dados
+
 - Entrada e saída
     - escreva ()
     - leia ()
     - limpa()
 
-### Módulo 3: 
+### Módulo 3:
+
 - Operadores aritméticos:
     - .+ Adição
     - .- Subtração
@@ -115,6 +118,7 @@ Você poderá ler mais sobre cada módulo na aba capítulos mas te deixo aqui um
     - * Multiplicação
     - % Resto da divisão inteira
     - ^ Potenciação
+
 - Operadores relacionais:
     - = Igual
     - != Diferente
