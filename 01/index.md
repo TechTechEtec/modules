@@ -2,7 +2,7 @@
 
 Você deve estar pensando: `“Por que fazer um curso de lógica de programação?”`. Hoje em dia em um mundo tão tecnológico é difícil achar alguém que não goste de tecnologias e inovações. Fato é que para muitos, trabalhar com tecnologia é um sonho, afinal estão mexendo com aquilo que eles estão inseridos todos os dias. Porém para outros é uma dor de cabeça. Muitos dizem que programação é uma área difícil, que tem que ser bom de matemática ou melhor, um gênio. Mas nada disso é verdade.
 
-Existe uma frase que diz o seguinte: `"programação não é fácil, mas está longe de ser difícil"`, então se você é um apaixonado por tecnologia, ou apenas tem interesse em descobrir o que é programação e qual a essência de ser um programador, nesse curso, você aprenderá as bases que te possibilitaram entrar na área de tecnologia de programação além de que, ao logo do curso indicaremos fontes de conteúdo extras para você expandir seus conhecimentos.
+Existe uma frase que diz o seguinte: `“programação não é fácil, mas está longe de ser difícil”`, então se você é um apaixonado por tecnologia, ou apenas tem interesse em descobrir o que é programação e qual a essência de ser um programador, nesse curso, você aprenderá as bases que te possibilitaram entrar na área de tecnologia de programação além de que, ao logo do curso indicaremos fontes de conteúdo extras para você expandir seus conhecimentos.
 
 ## **O que é e o que faz um programador?**
 
