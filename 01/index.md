@@ -101,9 +101,7 @@ Você poderá ler mais sobre cada módulo na aba capítulos mas te deixo aqui um
     - Real 
     - Lógico
     - Vazio
-
 - Conversão de tipos de dados
-
 - Entrada e saída
     - escreva ()
     - leia ()
@@ -115,7 +113,7 @@ Você poderá ler mais sobre cada módulo na aba capítulos mas te deixo aqui um
     - .+ Adição
     - .- Subtração
     - ./ Divisão inteira
-    - * Multiplicação
+    - .* Multiplicação
     - % Resto da divisão inteira
     - ^ Potenciação
 
@@ -141,7 +139,6 @@ Você poderá ler mais sobre cada módulo na aba capítulos mas te deixo aqui um
     - Se-senao
     - Se-senao-se
     - Escolha-caso 
-
 - Laços de repetição:
     - Enquanto 
     - Faça-enquanto
@@ -157,7 +154,6 @@ Você poderá ler mais sobre cada módulo na aba capítulos mas te deixo aqui um
     - HTML
     - CSS
     - Python
-
 - Revisão para avaliação final
 
 **Bons Estudos!**
