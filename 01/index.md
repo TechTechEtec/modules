@@ -77,7 +77,8 @@ Pode parecer exagero, mas tudo que seu computador faz pode ser traduzido em algo
 
 ## **Visão geral do curso / O que você aprenderá?** 
 
-Se você ficou interessado em saber mais sobre a lógica de programação, como melhorá-la e usá-la em seu dia a dia, então te convidamos a continuar com o módulo 2, o qual irá te introduzir às variáveis e aos tipos de dados existentes dentro do mundo da programação. De forma breve, quais são os tipos dos objetos o quais estamos manipulando que fazem a lógica funcionar como esperado? São números? Textos? 1 + 1 = 3?  
+Se você ficou interessado em saber mais sobre a lógica de programação, como melhorá-la e usá-la em seu dia a dia, então te convidamos a continuar com o módulo 2, o qual irá te introduzir às variáveis e aos tipos de dados existentes dentro do mundo da programação. De forma breve, quais são os tipos dos objetos o quais estamos manipulando que fazem a lógica funcionar como esperado? São números? Textos? 1 + 1 = 3?
+
 É os tipos de dados que fazem a lógica funcionar.  
 Em seguida você aprenderá quais são os operadores aritméticos e relacionais o que irá te permitir manipular e alterar o estado das variáveis e seus tipos.  
 Você poderá ler mais sobre cada módulo na aba capítulos mas te deixo aqui um resumo do que será apresentado:  
