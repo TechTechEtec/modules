@@ -5,7 +5,7 @@ Nesse módulo você aprenderá conceitos muito utilizados por profissionais da �
 Você já ouviu falar em variável? Matriz?   
 Não preocupe-se, esses termos serão dominados por você em-breve.
 
-{c: gray}**Conteúdo:**{/c} 
+**Conteúdo:**
 - 	Declaração de variável
 -	Declaração de constante
 -	Declaração de vetores
@@ -14,7 +14,7 @@ Não preocupe-se, esses termos serão dominados por você em-breve.
 
 # Declaração de variável
 
-## {c: gray}**O que é variável?**{/c} 
+## **O que é variável? 
 
 Variável é um termo muito utilizado quando se aprende lógica de programação, ela é basicamente um espaço reservado na memória do computador cujo valor pode ser alterado. Isso quer dizer que, enquanto o programa estiver sendo executado, os valores atribuídos as variáveis podem mudar.  
 Existem algumas regras para a criação de variáveis, essas regras demonstram a ordem de sintaxe da linguagem: 
@@ -43,7 +43,7 @@ Para utilizar qualquer variável e atribuir algum valor a ela é necessário cri
 
 # Declaração de constante
 
-## {c: gray}**O que é uma constante?**{/c} 
+## **O que é uma constante?**
 
 Foi visto que as variáveis são valores que precisam ser alterados no programa, porém existem valores que não devem ser alterados, nesse caso utiliza-se a constante.  
 As constantes são espaços reservado na memória do computador em que os valores são fixos, ou seja, depois de declarada não pode ter seu valor modificado.  
@@ -57,7 +57,7 @@ Existem muitas constantes matemáticas, uma delas é o número pi, ele vale apro
 
 # Declaração de vetores
 
-## {c: gray}**Vetores**{/c} 
+## **Vetores**
 
 O conceito de vetores é essencial no mundo da programação, geralmente ele é denominado Array. Os vetores são necessários por permitirem que vários valores de variáveis distintas estejam armazenados, em sequência, em um único local, mas todas as variáveis devem ser do mesmo tipo e também possuir o mesmo nome.  
 Para que a ideia não permaneça tão abstrata imagine que seu/a professor/a precisa criar um programa que leia todas as notas dos alunos, para os quais ela dá aula, e calcule a nota média de cada um. Ela provavelmente iria utilizar a variável de nome dos alunos diversas vezes, porém isso não é necessário, já que os nomes de todos os alunos pertencem á mesma variável.  
@@ -75,7 +75,7 @@ Vetor do caso cita acima.
 
 # Declaração de funções
 
-## {c: gray}**Funções**{/c}
+## **Funções**
 Uma função é uma série de comandos que constroem um passo a passo para a realização de uma tarefa específica de um código, elas podem ser usadas varias vezes no mesmo programa, e isso além de deixar o código mais eficiente e curto, também diminui as chances de alguma parte do código ser duplicada na hora de resolver algum problema.  
 Assim, quando se tem um código suficientemente longo é como se ele fosse dividido em pequenas partes para chegar ao objetivo final do programa, e para cada pequena parte ou tarefa declara-se uma função.  
 Existem muitas funções em diversas linguagens de programação, mas em Portugol a principal delas é a função início ().  
@@ -107,7 +107,7 @@ Para que essa função seja executada, deve-se colocar o nome dela na função i
 
 # Matrizes
 
-## {c: gray}**Funções**{/c}
+## **Funções**
 
 Uma matriz é um conjunto de variáveis do mesmo tipo, assim como um vetor, a diferença é que o vetor é unidimensional e a matriz é bidimensional.  
 Para ficar mais claro a matriz é como uma tabela, cada linha dessa tabela é como um vetor e cada coluna também.  

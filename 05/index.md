@@ -18,7 +18,7 @@ A seguir aprenderemos o seguintes comandos:
 
 
 
-## {c: gray}**Condicionais**{/c}
+## **Condicionais**
 
 
 
@@ -88,7 +88,7 @@ SE a condição for verdadeira ENTÃO um bloco de comandos é executado. Se a co
 
 
 
-## {c: gray}**Laços de repetição**{/c}
+## **Laços de repetição**
 
 
 
@@ -138,7 +138,7 @@ Parece confuso, mas é como se fosse um contador, o certo é aparecer os número
 
 
 
-## {c: gray}**Resumo do Módulo**{/c}
+## **Resumo do Módulo**
 
 
 

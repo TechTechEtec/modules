@@ -12,7 +12,7 @@ Bem-vindos ao módulo 6!
 
 
 
-## {c: gray}**Decisão Simples**{/c}
+## **Decisão Simples**
 
 
 
@@ -26,7 +26,7 @@ A estrutura condicional de decisão simples serve para escolher um comando para 
 
 
 
-## {c: gray}**Decisão Composta**{/c}
+## **Decisão Composta**
 
 
 
@@ -44,7 +44,7 @@ Se o resultado desta avaliação for verdadeiro, um conjunto de comandos será e
 
 
 
-## {c: gray}**Decisão Múltipla**{/c}
+## **Decisão Múltipla**
 
 
 
