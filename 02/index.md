@@ -13,7 +13,7 @@ Vale também lembrar que dados são construções humanas. Usamos dados para lid
 
 Como você pode perceber, estamos rodeados por dados. Vamos ver um outro exemplo:
 
-![bolas de golfe]({{BASE}}/imgs/bolasdegolfe.png)
+![bolas de golfe](https://drive.google.com/file/d/1NsIrKL5IB9XnxVAgEPH7oVNBTWo4mY3S/view?usp=share_link)
 
 O que você pode dizer sobre essas bolas? Elas são bolas de golfe, correto? Logo, um dos primeiros dados que temos é que elas são usadas para o golfe, um tipo de esporte. Isso já nos ajuda a classificá-las em um grupo, mas há mais coisas. Vejamos:  
 - A cor delas: branca;

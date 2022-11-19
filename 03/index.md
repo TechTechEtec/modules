@@ -1,4 +1,4 @@
-# Operadores Aritméticos
+## Operadores Aritméticos
 Os operadores aritméticos definem as operações aritméticas que podem ser realizadas sobre os números inteiros e reais. Para os inteiros, as operações aritméticas são a adição, subtração, multiplicação e resto. Para os números reais, as operações aritméticas são a adição, subtração, multiplicação e divisão. os operadores aritméticos correspondentes às operações definidas sobre os inteiros são:
 
 | Símbolo |  Definição | 
