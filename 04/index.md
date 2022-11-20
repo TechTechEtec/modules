@@ -1,4 +1,3 @@
-# Módulo quatro
 ## Apresentação do módulo 
 
 Nesse módulo você aprenderá conceitos muito utilizados por profissionais da área de programação, não só, mas também como utiliza-los na prática.  

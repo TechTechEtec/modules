@@ -1,6 +1,4 @@
-# Módulo 6 
-
-Bem-vindos ao módulo 6!  
+# Bem-vindos ao módulo 6!  
 
  Anteriormente vocês viram como funcionam os comandos condicionais, porém esses comandos fazem parte de um estrutura. Nesse capítulo, vamos estudar majoritariamente a teoria do que já aprendemos e nomear as decisões.  
 

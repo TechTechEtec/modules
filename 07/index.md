@@ -1,10 +1,10 @@
 # Encerramento!
 
-# Há sempre o que estudar
+## Há sempre o que estudar
 
 Agora iremos conhecer mais sobre algumas das linguagens de programação mais recomendadas para iniciantes e como funcionam, além de colocar em prática o que será visto mais futuramente.  
 
-## Quais seriam essas linguagens?
+# Quais seriam essas linguagens?
 
 Você deve estar se fazendo essa pergunta agora, então sem mais enrolação vamos lá. As linguagens de programação que vamos ver neste módulo são as seguintes:  
 - HTML
