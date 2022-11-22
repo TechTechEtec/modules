@@ -1,4 +1,6 @@
-## Operadores Aritméticos
+# Bem-vindos ao Módulo 3!
+
+# Operadores Aritméticos
 Os operadores aritméticos definem as operações aritméticas que podem ser realizadas sobre os números inteiros e reais. Para os inteiros, as operações aritméticas são a adição, subtração, multiplicação e resto. Para os números reais, as operações aritméticas são a adição, subtração, multiplicação e divisão. os operadores aritméticos correspondentes às operações definidas sobre os inteiros são:
 
 | Símbolo |  Definição | 
@@ -93,12 +95,12 @@ Por exemplo:
 
 Para atestar essas informações na programação, usamos estes símbolos, de maneira que:
                                       
-                                      a=b – a é IGUAL a b
-                                      a>b – a é MAIOR que b
-                                      a>=b - a é MAIOR OU IGUAL que b
-                                      a<b – a é MENOR que b
-                                      a<=b - a é MENOR OU IGUAL que b
-                                      a=/=b - a é DIFERENTE de b
+                                     - a=b – a é IGUAL a b
+                                     - a>b – a é MAIOR que b
+                                     - a>=b - a é MAIOR OU IGUAL que b
+                                     - a<b – a é MENOR que b
+                                     - a<=b - a é MENOR OU IGUAL que b
+                                     - a=/=b - a é DIFERENTE de b
 
 
 # Resumo do Módulo
@@ -134,14 +136,14 @@ Os operadores relacionais estão ligados com as declarações condicionais, eles
 
 São eles:
 
-    =    Igual que 
+   - =    Igual que 
 
-    =/= Diferente que
+   - =/= Diferente que
 
-    >    Maior que
+   - >    Maior que
 
-    >=   Maior ou igual que
+   - >=   Maior ou igual que
 
-    <    Menor que
+   - <    Menor que
 
-    <=   Menor ou igual que
+   - <=   Menor ou igual que

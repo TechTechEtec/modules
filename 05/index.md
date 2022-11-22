@@ -54,7 +54,7 @@ SE a condição for verdadeira ENTÃO um bloco de comandos é executado. Se a co
 
 
 
-![Simbolos (lógicos) matemáticos](https://drive.google.com/drive/u/0/folders/1et_jbN_IRpoCE7-Lz8L4mHWWYKYenMgi)
+![Simbolos (lógicos) matemáticos](http://drive.google.com/uc?id=1X9T3cabThoYNpJMPcp8kKC83UpeycEr_)
 
 
 
@@ -68,7 +68,7 @@ SE a condição for verdadeira ENTÃO um bloco de comandos é executado. Se a co
 
 
 
-![Exemplo de algoritimo](https://drive.google.com/drive/u/0/folders/1et_jbN_IRpoCE7-Lz8L4mHWWYKYenMgi)
+![Exemplo de algoritimo](http://drive.google.com/uc?id=1PV1tV13CJhYii9goepn1oxm4rv65Dr2J)
 
 
 
@@ -84,7 +84,7 @@ SE a condição for verdadeira ENTÃO um bloco de comandos é executado. Se a co
 
 
 
-![Exemplo de algoritimo dois](https://drive.google.com/drive/u/0/folders/1et_jbN_IRpoCE7-Lz8L4mHWWYKYenMgi)
+![Exemplo de algoritimo dois](http://drive.google.com/uc?id=1BNbmrT2x9soBxfc2A1QQbU9ay0mW0yND)
 
 
 
@@ -102,7 +102,7 @@ Você deve ter percebido que nós só lemos as notas uma vez na atividade anteri
 
 
 
-![Condicional Enquanto](https://drive.google.com/drive/u/0/folders/1et_jbN_IRpoCE7-Lz8L4mHWWYKYenMgi)
+![Condicional Enquanto](http://drive.google.com/uc?id=11bn9WRDJIENGJR06U4UepvNvpaq9cJZX)
 
 
 
@@ -110,7 +110,7 @@ Você deve ter percebido que nós só lemos as notas uma vez na atividade anteri
 
 
 
-![Função utiliza Enquanto](https://drive.google.com/drive/u/0/folders/1et_jbN_IRpoCE7-Lz8L4mHWWYKYenMgi)
+![Função utiliza Enquanto](http://drive.google.com/uc?id=11bn9WRDJIENGJR06U4UepvNvpaq9cJZX)
 
 
 
@@ -134,7 +134,7 @@ Parece confuso, mas é como se fosse um contador, o certo é aparecer os número
 
 
 
-![Faça é interrompida nesse exemplo](https://drive.google.com/drive/u/0/folders/1et_jbN_IRpoCE7-Lz8L4mHWWYKYenMgi) 
+![Faça é interrompida nesse exemplo]( http://drive.google.com/uc?id=16xnEku6kR26oPNIuoOFTdp6odcHTw8zO) 
 
 
 
