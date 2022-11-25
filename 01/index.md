@@ -13,9 +13,7 @@ Ele é programador por que sabe como resolver os problemas usando de ferramentas
 O programador tem o papel por tanto de aprender essas tecnologias para poder ter em suas mãos as melhores e mais atualizadas ferramentas que auxiliam no processo de desenvolvimento.  
 
 Com as ferramentas certas em mãos, o programador irá criar softwares. Os softwares são os programas (Sistemas operacionais, aplicativos para celular e computador, jogos entre muitos outros) que rodam na máquina, ou seja, enquanto o smartphone é identificado como hardware (parte dura em uma tradução literal) o software (parte mole em uma tradução literal) são os aplicativos que você usa, como Youtube, Chrome, WhatsApp entre outros.  
-Tudo que controla a tecnologia são os softwares, e eles implementam lógica para que tudo funcione como planejado. Quem faz isso são os programadores.  
-
-<iframe data-tally-src="https://tally.so/embed/mOQ0zY?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" width="100%" height="200" frameborder="0" marginheight="0" marginwidth="0" title="Atividade intramódulo teste"></iframe>
+Tudo que controla a tecnologia são os softwares, e eles implementam lógica para que tudo funcione como planejado. Quem faz isso são os programadores.
 
 ## **Quais tipos de desenvolvedores existem?**
 
