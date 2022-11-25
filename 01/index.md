@@ -15,6 +15,8 @@ O programador tem o papel por tanto de aprender essas tecnologias para poder ter
 Com as ferramentas certas em mãos, o programador irá criar softwares. Os softwares são os programas (Sistemas operacionais, aplicativos para celular e computador, jogos entre muitos outros) que rodam na máquina, ou seja, enquanto o smartphone é identificado como hardware (parte dura em uma tradução literal) o software (parte mole em uma tradução literal) são os aplicativos que você usa, como Youtube, Chrome, WhatsApp entre outros.  
 Tudo que controla a tecnologia são os softwares, e eles implementam lógica para que tudo funcione como planejado. Quem faz isso são os programadores.  
 
+ <iframe data-tally-src="https://tally.so/embed/mOQ0zY?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" width="100%" height="200" frameborder="0" marginheight="0" marginwidth="0" title="Atividade intramódulo teste"></iframe><script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if(d.querySelector('script[src="'+w+'"]'))v();else{var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
+
 ## **Quais tipos de desenvolvedores existem?**
 
 Agora que você sabe o que é um programador e qual sua função, devemos entender que não há apenas uma área dentro de programação, existem divisões que direcionam para tecnologias e responsabilidades diferentes. Essas divisões são conhecidas comumente como “FrontEnd”, “BackEnd” e “FullStack”. Essas três são as mais comuns, porém existem algumas outras que serão citadas posteriormente. Dentro dessas categorias, nós temos programadores de: Aplicativos móveis; Programas de desktop; IOT (Internet das Coisas); Aplicações Web (Sites); e servidores.  
@@ -158,3 +160,7 @@ Você poderá ler mais sobre cada módulo na aba capítulos mas te deixo aqui um
 - Revisão para avaliação final
 
 **Bons Estudos!**
+
+
+[def]: https://tally.so#tally-open=mOQ0zY&tally-emoji-text=👋&tally-emoji-animation=bounce
+[def2]: ttps://tally.so#tally-open=mOQ0zY&tally-emoji-text=👋&tally-emoji-animation=bounc
