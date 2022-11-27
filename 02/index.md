@@ -8,11 +8,12 @@ Esses dados vêm em diferentes formas. Exemplos incluem:
 
 - Seu nome – uma sequência de caracteres
 - Sua idade – geralmente um número inteiro
-- A quantidade de dinheiro no bolso – geralmente um valor medido em dólares e centavos (algo com uma parte fracionária)
+- A quantidade de dinheiro no bolso – geralmente um valor medido em dólares e centavos (algo com uma parte fracionária)Dinheiro no bolso - geralmente medido em dólares e centavos (algo com partes fracionárias)
 
-Vale também lembrar que dados são construções humanas. Usamos dados para lidar com uma realidade que é complexa. Ou seja, eles não são representações objetivas ou infalíveis desta realidade. Pelo contrário, os dados podem estar sujeitos a diversos tipos de erros ou vieses, desde a coleta, passando pelo seu tratamento, análise e até a visualização dos dados em gráficos ou mapas. Em todas estas etapas, é possível que erros afetem a forma como uma realidade complexa é representada por meio de dados. 
+Também vale lembrar que os dados são construídos artificialmente. Usamos dados para processar realidades complexas. Ou seja, não são afirmações objetivas ou infalíveis dessa realidade. Em vez disso, os dados podem estar sujeitos a diferentes tipos de erros, desde a coleta até o processamento, análise e até mesmo a visualização dos dados em gráficos ou mapas. Em todas essas etapas, erros podem afetar a maneira como realidades complexas são representadas por dados.
 
-Como você pode perceber, estamos rodeados por dados. Vamos ver um outro exemplo:
+Como você pode ver, estamos cercados por dados. Vejamos outro exemplo:
+
 
 ![bolas de golfe](http://drive.google.com/uc?id=1NsIrKL5IB9XnxVAgEPH7oVNBTWo4mY3S)
 
@@ -41,43 +42,49 @@ O termo binário também se refere a qualquer sistema de codificação/decodific
 
 ## Como os dados são armazenados
 
-Computadores representam dados, incluindo vídeo, imagens, sons e texto, como valores binários usando padrões de apenas dois números: 1 e 0. Um bit é a menor unidade de dados e representa apenas um único valor. Um byte tem oito dígitos binários. O armazenamento e a memória são medidos em megabytes e gigabytes .
-As unidades de medida de dados continuam a crescer à medida que a quantidade de dados coletados e armazenados cresce.
+Os computadores representam dados, incluindo vídeo, imagens, som e texto, como valores binários usando apenas dois padrões numéricos: 1 e 0. Um bit é a menor unidade de dados e representa apenas um único valor. Um byte tem oito dígitos binários. Armazenamento e memória são medidos em megabytes e gigabytes.
+À medida que a quantidade de dados coletados e armazenados aumenta, também aumenta a unidade de medida dos dados.
 
 ## Tipos de Dados
 
 ### Caractere
-Um caractere, ou char, é um símbolo (uma letra do alfabeto, um dígito, um símbolo de pontuação, etc). Um char é armazenado em 1 byte de memória.
+Um caractere ou char é um símbolo (letras do alfabeto, números, sinais de pontuação, etc.). Um char é armazenado em 1 byte de memória.
 
-Consiste de um único símbolo ou de uma concatenação de símbolos do alfabeto usado pela linguagem Portugol. Este alfabeto inclui todas as letras do alfabeto romano, todos os dígitos, 0, 1, . . . , 9 e os caracteres de pontuação, tais como ?, ., . . ., entre muitos outros símbolos. Os elementos do conjunto de valores do tipo caractere devem ser escritos, nos algoritmos, entre aspas duplas, como, por exemplo, "a”, "Esta e uma frase formada por caracteres”. Há um elemento especial, “”, que é denominado de palavra vazia, pois não possui nenhum símbolo.
+Consiste em um símbolo ou série de símbolos do alfabeto usado em português. O alfabeto inclui todas as letras do alfabeto romano, todos os números, 0, 1, ., 9 e sinais de pontuação como ?, . ,. Elementos de conjuntos de valores de tipo de caractere devem ser escritos entre aspas duplas em algoritmos, por exemplo, "a", "Esta é uma frase que consiste em caracteres". Existe um elemento especial "", que é chamado de palavra vazia porque não possui símbolo.
+
 
 ### Cadeia
-Uma cadeia de caracteres (string em inglês) é constituído por uma sequência de caracteres contendo letras, dígitos e/ou símbolos especiais. 
-Este tipo de dados é também muitas vezes chamado de alfanumérico, cadeia (ou cordão) de caracteres, ainda, do inglês, STRING. 
-Usualmente, os dados literais são representados nos algoritmos pela coleção de caracteres, delimitada em seu início e término com o caractere aspas ("). 
-Diz-se que os dados do tipo possuem um comprimento dado pelo número de caracteres nele contido.
+Uma cadeia de caracteres, consistem em sequências de caracteres contendo letras, números e/ou símbolos especiais.
+
+Esse tipo de dado também é comumente conhecido como caracteres alfanuméricos, string (ou string), ainda do inglês, STRING.
+
+Normalmente, os dados literais são representados em algoritmos por um conjunto de caracteres, delimitados no início e no final pelas aspas (").
+
+Diz-se que o comprimento dos dados do tipo é determinado pelo número de caracteres que ele contém.
 
 Exemplos:
 
-- "QUAL ?” - cadeia de comprimento 6  
-- " ” - cadeia de comprimento 1 
-- "qUaL ?!$" - cadeia de comprimento 8 
-- " AbCdefGHi" - cadeia de comprimento 9 
-- "1-2+3=" - cadeia de comprimento 6 
-- “0” - cadeia de comprimento 1 
+- "Qual?" – uma cadeia ou string de comprimento 6
+- " " – uma cadeia ou string de comprimento 1
+- "qUaL?!$" – uma cadeia ou string de comprimento 8
+- " AbCdefGHi" – cadeia ou string de comprimento 9 
+- "1-2+3=" – cadeia ou string de comprimento 6 
+- “0” - cadeia ou string  de comprimento 1 
+
 
 Note que, por exemplo, "1.2" representa um dado do tipo cadeia de comprimento 3, constituído pelos caracteres "1", "." e "2", diferindo de 1.2 que é um dado do tipo REAL.
 
 ### Inteiro
-Os números inteiros são aqueles que não possuem componentes decimais ou fracionários, podendo ser positivos ou negativos.
+Inteiros são aqueles números que não possuem decimais ou partes fracionárias, podendo ser positivos ou negativos.
+antecessor:
 
 Ex.: 
-- 24 - número inteiro positivo 
-- 0 - número inteiro 
-- -12 - número inteiro negativo
+- 24 - Inteiro positivo 
+- 0 - Inteiro 
+- -12 - Inteiro negativo
 
 ### Real
-Os dados de tipo REAL são aqueles que podem possuir componentes decimais ou fracionários, e podem também ser positivos ou negativos.
+Dados do tipo REAL são aqueles que podem ter parte decimal ou fracionária, podendo ser positivos ou negativos.
 
 Exemplos de dados do tipo real:
 - 24.01 - número real positivo com duas casas decimais 
@@ -87,29 +94,32 @@ Exemplos de dados do tipo real:
 - 0. - número real com zero casas decimais 
 
 ### Lógico
-A existência deste tipo de dado é, de certo modo, um reflexo da maneira como os computadores funcionam. Muitas vezes, estes tipos de dados são chamados de booleanos, devido à significativa contribuição de BOOLE à área da lógica matemática.
+A existência de tais dados é, de certa forma, um reflexo da maneira como os computadores funcionam. Devido à contribuição significativa de BOOLE para o campo da lógica matemática, esses tipos de dados são geralmente chamados de booleanos.
 
-O tipo de dados LÓGICO é usado para representar dois únicos valores lógicos possíveis: VERDADEIRO e FALSO. Quando uma condição é verdadeira, vai ser retornado True. Caso contrário, é retornado False.
+O tipo de dados LOGICAL ou LÓGICO é usado para representar apenas dois valores lógicos possíveis: TRUE e FALSE. Retorna True quando a condição é verdadeira. Caso contrário, retorne False.
 
-É comum encontrar em outras referências outros tipos de pares de valores lógicos como SIM e NÃO, 1 e 0, TRUE e FALSE. 
+Outros tipos de pares de valores lógicos como SIM e NÃO, 1 e 0, VERDADEIRO e FALSO são freqüentemente encontrados em outras referências.
 
-Um booleano é, então, um tipo de dados simples que indica ao computador a veracidade de uma condição ou de uma proposição.
+Portanto, um valor booleano é um tipo de dados simples que informa a um computador a verdade de uma condição ou proposição.
+
 
 ### Vazio
-Caracteres vazios são definidos como brancos (espaços), por exemplo: “”, não possui nenhum símbolo, portanto é vazio.
+Um caractere nulo é definido como um espaço (espaço em branco), por exemplo: "", não há símbolo, portanto, está vazio.
 
 # Entrada e Saída de Dados
-A entrada de dados, na programação, é basicamente tudo aquilo que entra de fora pra dentro, ou seja, informações que vem do meio externo para o programa. Por exemplo, quando você digita uma tecla no teclado ou passa o mouse em algum elemento qualquer na tela, você está enviando dados do meio externo para o computador, e esses dados são passados para o programa. Por isso, está ocorrendo uma entrada de dados.
+A entrada de dados na programação, é tudo o que vem de fora, ou seja, informações passadas para o programa do ambiente externo. Por exemplo, quando você usa o teclado ou o mouse para usar o computador você está enviando dados de fora do computador para dentro do computador, que por sua vez é passado para o programa. 
 
-Já a saída de dados é o que vai do programa para fora. Uma impressão de um arquivo é uma saída de dados. A exibição de um texto ou uma imagem na tela é saída de dados. Até mesmo a escrita de um arquivo é uma saída de dados, porque o ponto de vista é do programa para fora e não do computador para fora.
+Portanto, a entrada de dados está em andamento.
+A saída de dados é o contrário, é a saída do programa. A impressão de um arquivo é uma saída de dados. A exibição de texto ou imagens na tela é uma saída de dados. Mesmo a gravação em um arquivo é uma saída de dados, porque a perspectiva está voltada para o programa, não para o computador.
+
 
 ## Saída de dados
-Os algoritmos precisam interagir com o usuário e para isso podemos utilizar o comando escreva() para imprimir alguma coisa na tela, dentro do parênteses vai o texto que você deseja que apareça na tela, dessa forma:
+O algoritmo precisa interagir com o usuário, para isso podemos utilizar o comando escreva() para imprimir algo na tela, dentro dos parênteses está o texto que você deseja exibir na tela, assim:
 
 ```javascript
 escreva(“Olá Mundo”)
 ``` 
-Você também você pode usar \n para pular uma linha e \t para dar um tab no texto. 
+Você também pode usar \n para pular uma linha e \t para tabular (dar um tab) no texto. 
 
 ```javascript
 escreva("Primeira linha\n,
@@ -117,21 +127,20 @@ escreva("Primeira linha\n,
 ``` 
 
 ## Entrada de Dados
-Para que o usuário interaja com o algoritmo, ele precisa ler o dado por meio do comando leia.
+Para interagir com o algoritmo, o usuário precisa ler os dados através do comando leia.
 
-Contudo, assim como quando lemos alguma informação e guardamos ela no nosso cérebro, o computador também guardará o dado lido na memória, o dado informado será armazenado em uma variável.
+No entanto, assim como lemos algumas informações e as armazenamos em nossos cérebros, os computadores também armazenam dados lidos na memória.
 
-A entrada de dados é feita com o comando leia(). Assim como o comando escreva(), ele também aceita vários argumentos. Lembre-se que o comando leia sempre guardará o valor em uma variável.
+Os dados da notificação serão armazenados em uma variável.
+
+A entrada de dados é feita usando o comando leia(). Assim como o comando escreva(), ele também aceita vários argumentos. Lembre-se, comandos de leitura sempre armazenam valores em variáveis.
 
 Como exemplo, se quisermos saber o nome do usuário basta utilizar os seguintes comandos e veremos a
 
 ```javascript
 escreva (“Informe o seu nome:”)
 leia (nome)
-``` 
-Na primeira linha temos o comando de saída escreva, que pede ao usuário que informe o seu nome. Sabemos disso por conta dos parênteses ;)
-
-Já na segunda linha temos o comando de entrada leia, que vai pegar o dado informado e armazenar na variável nome. Assim como no comando escreva, tudo o que estiver entre parênteses será armazenado.
+```
 
 ou 
 
@@ -141,13 +150,13 @@ inteiro idade
 escreva("Digite a sua idade\n")
 leia(idade)
 ``` 
-Nesse exemplo, na primeiro linha declaramos a variável idade, na segunda linha temos o comando de saída escreva, que pede ao usuário que informe o sua idade.
+Na primeira linha, temos o comando de saída escreva, que solicita ao usuário que digite seu nome. Sabemos disso pelos colchetes.
 
-Na tercfeira temos o comando de entrada leia, que vai pegar o dado informado e armazenar na variável nome. Assim como no comando escreva, tudo o que estiver entre parênteses será armazenado, assim como no exemplo anterior.
+Na segunda linha temos o comando de entrada leia, que irá buscar os dados da notificação e armazená-los na variável nome. Assim como no comando escreva, tudo entre parênteses será armazenado.
 
 #### Mas e se quisermos que esses dados retornem ao usuário?
 
-Para que esses dados retornem também usamos o escreva(), podemos informar ao usuário qual foi o nome informado utilizando os seguintes comandos:
+Para retornar esses dados também usamos escreva() podemos notificar o usuário do nome inserido com o seguinte comando:
 
 ```javascript
 escreva (“Informe o seu nome:”)
