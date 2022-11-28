@@ -14,22 +14,32 @@ Os operadores aritméticos definem as operações aritméticas que podem ser rea
 | ^ | Potência |
 
 
-Com os operadores acima, podemos escrever expressões aritméticas que envolvem constantes e variáveis inteiras. Por exemplo, suponha que a, b e c sejam variáveis do tipo inteiro. Então, temos que 
+Com os operadores acima podemos escrever expressões aritméticas com números inteiros. Por exemplo, suponha que x, y e z sejam variáveis do tipo inteiro. Então:
 
-                                        a + b + c 
+                                        x + y + z  
 
-                                        a − b ∗ c % 2
+                                        x − y ∗ z % 2
 
                                       − 5 + 3 ∗ 8 \ 2
 
-são todas expressões aritméticas válidas na linguagem Portugol.
+São todas expressões válidas em Portugol.
 
 ## Regras de Precedência 
-Qual é o valor da expressão aritmética 5 ∗ 3 % 2? Podemos dizer que o valor da expressão é igual a 1, se avaliarmos 5 ∗ 3 primeiro e, depois, 15 % 2, ou podemos dizer que é igual a 5 se avaliarmos 3 % 2 primeiro e, depois, 5 ∗ 1. As duas respostas são igualmente válidas. No entanto, como não podemos permitir ambiguidades em algoritmos, devemos definir regras de precedência de operadores, que são regras para definir a ordem em que os operadores aritméticos que vimos são aplicados em uma expressão aritmética qualquer. 
+Qual é o valor da expressão aritmética 5 ∗ 3 % 2? Podemos dizer que o valor da expressão é igual a 1, se fizermos na ordem:
+                                        5 ∗ 3 
+                                        15 % 2 
+ 
+ ou podemos dizer que é igual a 5 se fizermos:
+
+                                        3 % 2 
+                                        5 ∗ 1. 
+
+As duas respostas são igualmente válidas, mas não pode haver ambiguidades em algoritmos, por isso definimos regras de precedência para os operadores, que são regras que definem a ordem em que os operadores aritméticos são aplicados em uma expressão aritmética qualquer.
 
 Na linguagem Portugol, os operadores possuem prioridades associadas com eles. A operação associada a um operador com prioridade p é sempre executada antes da operação associada a um operador com prioridade q sempre que p > q. Quando p = q, a operação correspondente ao operador mais à esquerda é executado.
 
-O operador de maior prioridade é o menos unário, −. Em seguida, temos os operadores ∗, \ e %. Finalmente, com a prioridade mais baixa, temos os operadores + e −, onde + e − são os operadores de adição e subtração, respectivamente.
+Confira a ordem de precedência: 
+
 
 |  Operador  | Símbolo       | Prioridade                                  |
 | :---------- | :--------- | :------------------------------------------ |
@@ -40,40 +50,43 @@ O operador de maior prioridade é o menos unário, −. Em seguida, temos os ope
 
 Por exemplo, em 
                                         
-                                        a + b + c
+                                        x + y + z
 
-A operação a + b é realizada e, em seguida, o resultado dela é adicionado ao valor de c, pois os operadores possuem a mesma prioridade e, portanto, as operações são realizadas da esquerda para a direita. 
+A operação x + y é feita e depois o resultado dela é adicionado ao valor de z, pois os operadores tem a mesma prioridade e nesse caso as operações são realizadas da esquerda para a direita. 
 
 Na expressão aritmética 
                                      
-                                     a − b ∗ c % 2^3 
+                                     x − y ∗ z % 2^3  
 
-A operação2^3 é efetuada primeiro, b ∗ c em seguida, então vem o resto da divisão de b ∗ c pelo resultado de 2^3 é calculado. Finalmente, o resto é subtraído de a. Note que a multiplicação foi efetuada antes da divisão, pois os operadores ∗ e % possuem a mesma prioridade, mas ∗ está mais à esquerda.  
+A operação 2^3 é efetuada primeiro, y ∗ z em seguida, então o resto (%) da divisão de y ∗ z pelo resultado de 2^3 é calculado. Finalmente, o resto é subtraído de x.
+
+A multiplicação foi efetuada antes da divisão, pois os operadores ∗ e % possuem a mesma prioridade, mas ∗ está mais à esquerda.  
+  
 
 ## Alteração de Prioridades
-Algumas vezes é desejável alterar a ordem (imposta pelas regras de precedência) segundo a qual as operações são realizadas em uma expressão aritmética. Para tal, fazemos uso de parênteses. Por hipótese, todo operador possui prioridade mais baixa do que a dos parênteses. Isto garante que os operandos correspondentes ao valor das expressões entre parênteses sejam calculados antes de serem usados pelos demais operadores. É importante destacar que os parênteses devem ocorrer em pares (um aberto e um fechado) nas expressões e podem ocorrer “aninhados” em diversos níveis.
+Às vezes é necessário alterar a ordem em que as operações são realizadas em expressões aritméticas (impostas por regras de precedência). Para isso, usamos parênteses. Por suposição, todo operador tem precedência menor que parênteses. Isso garante que as expressões entre parênteses sejam feitas antes de serem utilizados por outros operadores. É importante observar que os parênteses devem aparecer em pares (um aberto e outro fechado) na expressão e podem aparecer "aninhados" em diferentes níveis.
 
 Por exemplo, na expressão 
 
-                                    (a − b) ∗ (c % 2)
+                                    (x − y) ∗ (z % 2)
 
-A operação a − b é realizada primeiro. Em seguida, a operação c % 2 é realizada e, por último, a multiplicação dos resultados das duas operações anteriores entre os parênteses é realizada, ao contrário do que aconteceria se não houvessem parênteses, pois a multiplicação, *, aconteceria primeiro por ordem de prioridade e posicionamento, sendo ela a primeira da esquerda para a direita.
+Primeiro execute a operação x − y. Em seguida, é realizada a operação z % 2 e, por fim, é realizada a multiplicação dos resultados das duas operações anteriores entre parênteses, que é o oposto do caso sem parênteses, pois a multiplicação * acontecerá primeiro em prioridade e colocação ordem, primeiro da esquerda para a direita individual.
 
-Mas, como sabemos disso? A idéia é imaginar as expressões entre parênteses como operandos a serem “descobertos”. Com isso em mente, a expressão acima pode ser imaginada como tendo a forma op1 ∗ op2, onde op1 e op2 são as expressões (a − b) e (c % 2). Então, o que temos é uma simples multiplicação de dois valores, op1 e op2. No entanto, para que esta multiplicação seja realizada, precisamos dos valores op1 e op2. Para tal, assumimos que o valor, op1, à esquerda do operador de multiplicação, ∗, será obtido antes do valor, op2, à direita dele. 
+Então, o que temos é uma simples multiplicação de duas operações que vamos chamar de op1 e op2, valores a serem descobertos. Para tal, assumimos que o valor, op1, à esquerda do operador de multiplicação, ∗, será obtido antes do valor, op2, à direita dele. 
 
-Para calcular op1, avaliamos a expressão a − b, que se encontra dentro dos parênteses. Neste momento, descobrimos que a subtração a − b é a primeira operação aritmética realizada. Uma vez que o valor op1 tenha sido descoberto, avaliamos c % 2, que é a expressão correspondente ao valor op2. Neste momento, descobrimos que a operação de resto de divisão, c % 2, é a segunda operação aritmética realizada. 
+Para calcular op1, fazemos a expressão x − y, que se encontra dentro dos parênteses, descobrindo que a subtração a − b é a primeira operação aritmética realizada. Com o valor de op1 descoberto, fazemos c % 2, a op2. Neste momento, descobrimos que a operação de resto de divisão, c % 2, é a segunda operação aritmética realizada. 
 
-Assim, dispomos dos valores op1 e op2 e, portanto, podemos realizar a multiplicação op1 ∗ op2 , que passa a ser a terceira operação realizada. Logo, os operadores são aplicados na ordem −, % e ∗.
+Assim, temos os valores op1 e op2 e podemos realizar a multiplicação op1 ∗ op2, que é a terceira operação a ser realizada. Os operadores então são aplicados na ordem −, % e ∗.
 
 
 # Operadores Relacionais:
 Primeiro é necessário entender, basicamente por enquanto, o que são declarações condicionais. Como o nome já diz, uma declaração condicional apresenta uma condição, dá ao algoritmo a capacidade de tomar decisões, que faça uma coisa ou outra. 
 
-Exemplo: 
+Exemplo:
 
-Um algoritmo possui uma variável chamada idade, cujo valor é digitado pelo usuário. O algoritmo precisa imprimir duas mensagens distintas a depender do valor contido nessa variável.
-- Dessa maneira, se o valor contido na variável idade for menor que 18, o algoritmo deverá exibir a mensagem “Você não pode acessar o sistema! É menor de idade!".
-- Em contrapartida, caso o valor contido na variável idade seja maior ou igual a 18, o algoritmo deverá exibir a mensagem “Bem vindo ao sistema!".
+Um algoritmo tem uma variável chamada "idade", cujo valor é digitado pelo usuário. O algoritmo precisa mostrar duas mensagens distintas a depender do valor contido nessa variável.
+- Dessa maneira, se o valor da variável "idade" for menor que 18, o algoritmo deve mostrar a mensagem “Você não pode acessar o sistema! É menor de idade!".
+-Em contrapartida, caso o valor contido na variável idade seja maior ou igual a 18, o algoritmo deverá exibir a mensagem “Bem vindo ao sistema!".
 
 No código, essas declarações são feitas, também, através dos operadores relacionais, são eles:
 
@@ -87,10 +100,11 @@ No código, essas declarações são feitas, também, através dos operadores re
 | <=  | Menor ou igual que |
 
 As operações com operadores relacionais sempre retornam um valor FALSO ou VERDADEIRO.
+
 Por exemplo:
 
-                                O número 5 é maior que o número 6? FALSO
-                                O número 5 é menor que o número 6? VERDADEIRO 
+                                O número 7 é maior que o número 9? FALSO
+                                O número 4 é menor que o número 6? VERDADEIRO 
 
 
 Para atestar essas informações na programação, usamos estes símbolos, de maneira que:
