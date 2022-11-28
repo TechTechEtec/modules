@@ -3,15 +3,7 @@
 # Operadores Aritméticos
 Os operadores aritméticos definem as operações aritméticas que podem ser realizadas sobre os números inteiros e reais. Para os inteiros, as operações aritméticas são a adição, subtração, multiplicação e resto. Para os números reais, as operações aritméticas são a adição, subtração, multiplicação e divisão. os operadores aritméticos correspondentes às operações definidas sobre os inteiros são:
 
-| Símbolo |  Definição | 
-| :---------- | :--------------------------------------------------- | 
-| +, - | Operadores unários, isto é, são aplicados a um único operando. São os operadores aritméticos de maior precedência. Exemplos: -3, +x. Enquanto o operador unário - inverte o sinal do seu operando, o operador + não altera o valor em nada o seu valor. O operador menos muda o sinal de seu argumento. Um número positivo torna-se negativo e um número negativo torna-se positivo.      |
-| + | adição 0|
-| - | subtração |
-| * | multiplicação | 
-| \ | Divisão Inteira |
-| % | Resto |
-| ^ | Potência |
+![Operadores Aritméticos](https://drive.google.com/uc?id=1lVtO0aILYaWokbmnZUS18cYNX-tWjJnN)
 
 
 Com os operadores acima podemos escrever expressões aritméticas com números inteiros. Por exemplo, suponha que x, y e z sejam variáveis do tipo inteiro. Então:
@@ -41,12 +33,7 @@ Na linguagem Portugol, os operadores possuem prioridades associadas com eles. A 
 Confira a ordem de precedência: 
 
 
-|  Operador  | Símbolo       | Prioridade                                  |
-| :---------- | :--------- | :------------------------------------------ |
-| Unários | +,- | Mais alta |
-| Potência | ^ | Mais alta entre operadores binários, ou seja, que têm dois números sendo calculados |
-| Multiplicação, Divisão Interna e Resto | *,\,% | Segunda mais alta |
-| Adicção e Subtração | +,- | Mais baixa |
+![Regras de precedência](https://drive.google.com/uc?id=1vaMq3kvJleeX3D8OUFUTdLwhpmXYfMyS)
 
 Por exemplo, em 
                                         
