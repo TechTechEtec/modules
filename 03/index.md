@@ -1,6 +1,6 @@
-# Bem-vindos ao Módulo 3!
+## Bem-vindos ao Módulo 3!
 
-# Operadores Aritméticos
+## Operadores Aritméticos
 Os operadores aritméticos definem as operações aritméticas que podem ser realizadas sobre os números inteiros e reais. Para os inteiros, as operações aritméticas são a adição, subtração, multiplicação e resto. Para os números reais, as operações aritméticas são a adição, subtração, multiplicação e divisão. os operadores aritméticos correspondentes às operações definidas sobre os inteiros são:
 
 ![Operadores Aritméticos](https://drive.google.com/uc?id=1lVtO0aILYaWokbmnZUS18cYNX-tWjJnN)
@@ -16,7 +16,7 @@ Com os operadores acima podemos escrever expressões aritméticas com números i
 
 São todas expressões válidas em Portugol.
 
-## Regras de Precedência 
+### Regras de Precedência 
 Qual é o valor da expressão aritmética 5 ∗ 3 % 2? Podemos dizer que o valor da expressão é igual a 1, se fizermos na ordem:
                                         5 ∗ 3 
                                         15 % 2 
@@ -50,7 +50,7 @@ A operação 2^3 é efetuada primeiro, y ∗ z em seguida, então o resto (%) da
 A multiplicação foi efetuada antes da divisão, pois os operadores ∗ e % possuem a mesma prioridade, mas ∗ está mais à esquerda.  
   
 
-## Alteração de Prioridades
+### Alteração de Prioridades
 Às vezes é necessário alterar a ordem em que as operações são realizadas em expressões aritméticas (impostas por regras de precedência). Para isso, usamos parênteses. Por suposição, todo operador tem precedência menor que parênteses. Isso garante que as expressões entre parênteses sejam feitas antes de serem utilizados por outros operadores. É importante observar que os parênteses devem aparecer em pares (um aberto e outro fechado) na expressão e podem aparecer "aninhados" em diferentes níveis.
 
 Por exemplo, na expressão 
@@ -66,7 +66,7 @@ Para calcular op1, fazemos a expressão x − y, que se encontra dentro dos par�
 Assim, temos os valores op1 e op2 e podemos realizar a multiplicação op1 ∗ op2, que é a terceira operação a ser realizada. Os operadores então são aplicados na ordem −, % e ∗.
 
 
-# Operadores Relacionais:
+## Operadores Relacionais:
 Primeiro é necessário entender, basicamente por enquanto, o que são declarações condicionais. Como o nome já diz, uma declaração condicional apresenta uma condição, dá ao algoritmo a capacidade de tomar decisões, que faça uma coisa ou outra. 
 
 Exemplo:
